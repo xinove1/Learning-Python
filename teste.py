@@ -1,11 +1,10 @@
-class jogadores:
-    x = 100
-    y = 200
+def DNA_strand(dna):
+    dna_pairs = [
+        'T': 'A'
+        'A': 'T'
+        'C': 'G'
+        'G': 'C'    ]
+    dna.translate(dna_pairs)
+    return(dna)
 
-xinove = jogadores()
-pedro = jogadores()
-xinove.x = 250
-
-
-print (xinove.x)
-print (pedro.x)
+DNA_strand('ATTGC')   
