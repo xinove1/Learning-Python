@@ -1,5 +1,8 @@
-# Jogo-da-velha-em-python-tentativa
-Jogo da velha
+# Aprendendo pitão
+-Jogo da velha
+-Django
+-Qt
+-
 
 
 
